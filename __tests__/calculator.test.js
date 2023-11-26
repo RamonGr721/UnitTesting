@@ -2,18 +2,25 @@ const calculator = require("../calculator");
 
 describe("Calculator tests", () =>{
     test("adding 1 + 2 return 3", () =>{
-        expect(calculator.sum(1,2)).toBe(3);
+        expect(calculator.cal(1,2,"+")).toBe(3);
     });
 
-    test("2 - 2 should NOT return 1", () => {
-        expect(calculator.diff(2,2)).not.toBe(1);
+    test("adding 4 - 2 return 2", () =>{
+        expect(calculator.cal(4,2,"-")).toBe(2);
     });
 
-    test("2 * 2 should return 4", () => {
-        expect(calculator.multiply(2,2)).toBe(4);
+    test("adding 3 * 2 return 6", () =>{
+        expect(calculator.cal(3,2,"*")).toBe(6);
     });
 
-    test("6 / 3 should return 2", () => {
-        expect(calculator.divide(6,3)).toBe(2);
+    test("adding 10 / 5 should not return 2", () =>{
+        expect(calculator.cal(10,5,"/")).not.toBe(2);
     });
+    
+    test("adding 19 % 4 should return 3", () =>{
+        expect(calculator.cal(19,4,"%")).toBe(3);
+    });
+    
+
+
 });

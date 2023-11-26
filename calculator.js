@@ -1,9 +1,22 @@
 //Calculator with individual Functions
 const calculator = {
-    sum: (a, b) => a + b,
-    diff: (a, b) => a - b, 
-    multiply: (a , b) => a * b,
-    divide: (a , b) => a / b
+   cal: function(num1, num2, operation){
+        if(operation == "+"){
+            return num1 + num2;
+        }
+        else if(operation == "-"){
+            return num1 - num2;
+        }
+        else if(operation == "*"){
+            return num1 * num2;
+        }
+        else  if(operation == "/"){
+            return num1 / num2;
+        }
+        else  if(operation == "%"){
+            return num1 % num2;
+        }
+   }
 }
 
 module.exports = calculator;
