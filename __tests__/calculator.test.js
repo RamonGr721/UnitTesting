@@ -1,3 +1,4 @@
+//Unit Testing: for Addition, Subtraction, Multiplication, Division and Modulus. 
 const calculator = require("../calculator");
 
 describe("Calculator tests", () =>{

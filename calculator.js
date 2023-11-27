@@ -1,4 +1,4 @@
-//Calculator with individual Functions
+//Calculator with 5 operations
 const calculator = {
    cal: function(num1, num2, operation){
         if(operation == "+"){
