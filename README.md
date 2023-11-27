@@ -1,12 +1,12 @@
 # UnitTesting
 
  ## Instructions
- ## Creating Simple Calculator Function
+ ## Creating Simple Calculator Function 
 <ul>        
     <li>Initialize a new project via:</li>
-        npm init
+        <strong>npm init-y <strong>
     <li>Install JEST via:</li>
-        npm i -D jest
+        <strong>npm i -D jest</strong>
     <li>Update package.json file </li>
  </ul>
         <strong>replace default information next to the test field with 'jest'<Strong>
@@ -15,8 +15,7 @@
 <li>Export Calculator function</li> 
 </ul>
 
-## Running test with JEST##
-
+## Running test with JEST 
 <ul>  
 <li>Create subfolder in project name __tests__</li>
 <li>Create calculator.test.js </li>  
