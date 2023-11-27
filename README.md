@@ -4,12 +4,12 @@
  ## Creating Simple Calculator Function 
 <ul>        
     <li>Initialize a new project via:</li>
-        <strong>npm init-y <strong>
+        <strong>npm init -y <strong>
     <li>Install JEST via:</li>
         <strong>npm i -D jest</strong>
     <li>Update package.json file </li>
  </ul>
-        <strong>replace default information next to the test field with 'jest'<Strong>
+        <strong>Replace default information next to the test field with 'jest'<Strong>
 <ul>
 <li>Create a simple calculator function</li>
 <li>Export Calculator function</li> 
@@ -23,4 +23,4 @@
 <li>Add individual tests to calculator.test.js</li>
 <li>Run Test via</li> 
 <ul>
-   npm test
+   <strong>npm test </strong>
